@@ -5,6 +5,10 @@ A local replacement for Strava's paid analysis, built around one question:
 
 Everything runs on your machine. Your data never leaves it.
 
+![Training dashboard with weekly volume, cumulative kilometres and long run charts](docs/dashboard.png)
+
+*The dashboard, shown here with made-up sample data.*
+
 ## Why the bulk export, not the API
 
 Since **30 June 2026** Strava's API — and the official MCP connector — require a
