@@ -732,7 +732,7 @@ if (buildsAll.length) {
     if (bands) {
       const cur = rows[rows.length - 1];
       rows.push({
-        label: '2026 projected',
+        label: buildYear(buildsAll[buildsAll.length - 1]) + ' projected',
         projected: true,
         segments: [
           { label: 'Easy', value: cur.segments[0].value + bands.easy, color: ord[0], ink: '#0b0b0b' },
