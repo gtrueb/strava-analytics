@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Personal training data (never commit)
+data/
+profile.json
+dashboard.html
+dashboard-web.html
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
