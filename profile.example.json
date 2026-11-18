@@ -1,0 +1,22 @@
+{
+  "_comment": "Example with made-up values. Copy this file to profile.json and put in your own. Anything left null is estimated from your data.",
+  "max_hr": 190,
+  "resting_hr": null,
+  "threshold_hr": null,
+  "threshold_pace_s_per_km": null,
+  "build_weeks": 16,
+  "races": [
+    {
+      "name": "Example City Half Marathon",
+      "date": "2025-04-06",
+      "distance_km": 21.0975,
+      "time": "1:59:30"
+    },
+    {
+      "name": "Example City Half Marathon",
+      "date": "2026-04-05",
+      "distance_km": 21.0975,
+      "planned": true
+    }
+  ]
+}
