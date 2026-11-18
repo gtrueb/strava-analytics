@@ -1,0 +1,4 @@
+#!/bin/sh
+# Runs the CLI inside the project virtualenv.
+cd "$(dirname "$0")" || exit 1
+exec ./.venv/bin/python cli.py "$@"
